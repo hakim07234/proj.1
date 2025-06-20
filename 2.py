@@ -23,5 +23,5 @@ for classId , confidence , box in zip(classIds.flatten(),confs.flatten(),bbox):
                 (box[0]+10,box[1]+20),
                 cv2.FONT_HERSHEY_COMPLEX,1,(0,0,255),thickness=2)
 
-cv2.imshow('Rakwan', img)
+cv2.imshow('hakim', img)
 cv2.waitKey(0)
